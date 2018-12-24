@@ -11,9 +11,9 @@ print OUT qq|<HTML><HEAD><TITLE>Publications</TITLE></HEAD>\n|;
 print OUT qq|<BODY bgcolor="#ffffff" text="#000000" link="#0000ff" vlink="#0000ff">\n|;
 print OUT qq|<H1 align="center">Publications</H1>\n<HR>\n|;
 
-@Types = ('Preprints', 'Accepted Papers', 'Refereed Papers', 'Conference Proceedings', 'Manuals &amp; Documentation', 'White Papers &amp; Reports');
+@Types = ('Preprints', 'Accepted Papers', 'Refereed Papers', 'Conference Proceedings', 'Manuals &amp; Documentation', 'White Papers &amp; Reports', 'Other');
 
-for $i (0..5) {
+for $i (0..6) {
 
   print OUT qq|<H3 align="center">$Types[$i]</H3>\n|;
 
