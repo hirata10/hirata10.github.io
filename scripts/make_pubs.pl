@@ -84,7 +84,7 @@ for $i (0..6) {
         $field =~ s|\&gt\;=|\&ge\;|g;
         $field =~ s|Lyman-alpha|Lyman-\&alpha\;|g;
         $field =~ s|Halpha|H\&alpha\;|g;
-        $field =~ s|\$alpha\$|\&alpha\;|g;
+        $field =~ s|\$\\alpha\$|\&alpha\;|g;
         $TITLE = $field;
       }
 
